@@ -49,5 +49,11 @@ using namespace 编译指令
   int a， int b  float c 一开始是 c=float（a/b）; 错的
   应该是  c=float(a)/b   先类型转换再计算 和后类型转换计算是有差别的。
   
+  ### 第四章
+  char name[20];
+  C风格的字符串  读取一行的是cin.getline(name,200
+  string name;
+  getline(cin,name);
   
-  
+  #### 共用体（union）
+  一种数据格式，能存储不同的数据类型，但只能同时存储一种。 __用途:
